@@ -25,7 +25,8 @@ const Projects = () => {
     {img: "/ecomerce.png", disc: `¡Bienvenido a nuestra tienda en línea! Descubre una experiencia de compra única en nuestro sitio web de comercio 
       electrónico. Explora nuestra amplia selección de productos de alta calidad y encuentra 
       todo lo que necesitas en un solo lugar.`, demo: "https://williamrodriguez-e-comerce.netlify.app/"},
-    {img: "https://img.freepik.com/vector-gratis/proximamente-estilo-grunge-abstracto-salpicaduras-negras_1017-26690.jpg", disc: "Estoy preparando algo asombroso y emocionante para ti." },
+    {img: "/APIecommerce.png", disc: `¡Bienvenido a nuestra documentación de API para comercio 
+      electrónico! Descubre el poder de nuestra API para impulsar tu negocio en línea.`, demo: "https://ecomerce-api-8u64.onrender.com/docs/"},
     {img: "https://img.freepik.com/vector-gratis/proximamente-estilo-grunge-abstracto-salpicaduras-negras_1017-26690.jpg", disc: "Estoy preparando algo asombroso y emocionante para ti." },
     {img: "https://img.freepik.com/vector-gratis/proximamente-estilo-grunge-abstracto-salpicaduras-negras_1017-26690.jpg", disc: "Estoy preparando algo asombroso y emocionante para ti." }
   ]
