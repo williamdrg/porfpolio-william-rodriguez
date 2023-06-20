@@ -1,0 +1,10 @@
+.banner {
+  height: 100vh;
+}
+
+@media (max-width: 640px) {
+  .banner {
+    height: 100%;
+    padding-bottom: 2rem;
+  }
+}

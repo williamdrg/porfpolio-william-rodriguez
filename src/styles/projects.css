@@ -1,0 +1,199 @@
+/* proyect */
+.project_count {
+  height: 10rem;
+  background-color: #013ca1;
+  margin: 0 0.5rem;
+  /* padding: 0.5rem; */
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.project_count img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 400ms ease-in-out;
+}
+
+.project_count .disc {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: -10rem;
+  text-align: left;
+  padding: 0.5rem;
+  background: linear-gradient(rgba(190, 20, 20, 0.1), rgba(0,0,0, 0.80));
+  transition: all 400ms ease-in-out;
+}
+
+.project_count .disc h1 {
+  font-size: 1rem;
+}
+
+.project_count .disc p {
+  width: 92%;
+}
+
+.project_count .disc p a {
+  margin-left: 0.4rem;
+  color: red;
+  font-size: 0.7rem;
+}
+
+.project_count:hover img {
+  transform: scale(1.2);
+  opacity: 0.5;
+}
+
+.project_count:hover .disc {
+  bottom: 0;
+}
+
+.descrph1 {
+  font-size: 0.5rem;
+}
+
+/* proyects */
+.project_pjs {
+  width: 80%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 3rem 0;
+  text-align: center;
+  position: relative;
+}
+
+@media(max-width: 840px){
+  .project_pjs {
+      width: 90%;
+  }
+}
+
+.project_pjs h1{
+  font-size: 1.9rem;
+}
+
+.project_pjs p {
+  width: 28rem;
+  margin: 0 auto;
+  padding: 1rem 0;
+  font-size: 0.4rem;
+}
+
+@media(max-width : 500px){
+  .project_pjs p {
+      width: 90%;
+  }
+}
+
+.slide{
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* **** */
+
+.content-all{
+  width: 210px;
+  margin-bottom: 20rem;
+  perspective: 800px; 
+  position: relative;
+}
+.content-carrousel{
+  width: 100%;
+  position: absolute;
+  animation: rotar 30s infinite linear;
+  transform-style: preserve-3d;
+}
+.content-carrousel:hover{
+  animation-play-state: paused;
+  cursor: pointer;
+}
+.content-carrousel figure{
+  width: 100%;
+  height: 120px;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0px 0px 20px 0px black;
+  transition: all 300ms;
+}
+.content-carrousel figure:hover{
+  box-shadow: 0px 0px 0px 0px black;
+  transition: all 300ms;
+}
+.content-carrousel figure:nth-child(1){transform: rotateY(0deg) translateZ(300px);}
+.content-carrousel figure:nth-child(2){transform: rotateY(40deg) translateZ(300px);}
+.content-carrousel figure:nth-child(3){transform: rotateY(80deg) translateZ(300px);}
+.content-carrousel figure:nth-child(4){transform: rotateY(120deg) translateZ(300px);}
+.content-carrousel figure:nth-child(5){transform: rotateY(160deg) translateZ(300px);}
+.content-carrousel figure:nth-child(6){transform: rotateY(200deg) translateZ(300px);}
+.content-carrousel figure:nth-child(7){transform: rotateY(240deg) translateZ(300px);}
+.content-carrousel figure:nth-child(8){transform: rotateY(280deg) translateZ(300px);}
+.content-carrousel figure:nth-child(9){transform: rotateY(320deg) translateZ(300px);}
+.content-carrousel figure:nth-child(10){transform: rotateY(360deg) translateZ(300px);}
+.content-carrousel img{
+  width: 100%;
+  transition: all 300ms;
+}
+.content-carrousel img:hover{
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+@keyframes rotar{
+  from{
+      transform: rotateY(0deg);
+  }to{
+      transform: rotateY(360deg);
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .content-all {
+    width: 100%;
+  }
+  .content-carrousel {
+    position: relative;
+    animation: none;
+  }
+  .content-carrousel figure {
+    width: 100%;
+    height: auto;
+    position: relative; 
+    display: none;
+  }
+  .content-carrousel figure:nth-child(1){transform: rotateY(0deg) translateZ(0);}
+  .content-carrousel figure:nth-child(2){transform: rotateY(0deg) translateZ(0);}
+  .content-carrousel figure:nth-child(3){transform: rotateY(0deg) translateZ(0);}
+  .content-carrousel figure:nth-child(4){transform: rotateY(0deg) translateZ(0);}
+  .content-carrousel figure:nth-child(5){transform: rotateY(0deg) translateZ(0);}
+  .content-carrousel figure:nth-child(6){transform: rotateY(0deg) translateZ(0);}
+  .content-carrousel figure:nth-child(7){transform: rotateY(0deg) translateZ(0);}
+  .content-carrousel figure:nth-child(8){transform: rotateY(0deg) translateZ(0);}
+  .content-carrousel figure:nth-child(9){transform: rotateY(0deg) translateZ(0);}
+  .content-carrousel figure:nth-child(10){transform: rotateY(0deg) translateZ(0);}
+  .content-carrousel figure.active {
+    display: block;
+  }
+
+  .content-carrousel:hover{
+    animation-play-state: paused;
+  }
+
+  .project_count {
+    margin-top: 15rem;
+  }
+
+  .project_count .disc p {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 321px) {
+  .project_count {
+    margin-top: 20rem;
+  }
+}
