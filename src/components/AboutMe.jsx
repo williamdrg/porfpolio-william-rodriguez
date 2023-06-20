@@ -12,7 +12,7 @@ const AboutMe = () => {
           <Slide direction="left">
             <div className='about_description'>
               <div className='img_about'>
-                <img src="../../../public/programador.jpg" alt="imagen de programador" />
+                <img src="/programador.jpg" alt="imagen de programador" />
               </div>
               <p>
               ¡Hola! Soy un Desarrollador Web Full Stack apasionado y autodidacta con una 

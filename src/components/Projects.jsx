@@ -8,21 +8,21 @@ const Projects = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isHovering, setIsHovering] = useState(false);
   const projects = [
-    {img: "../../../public/APIecommerce.png", disc: `¡Bienvenido a nuestra documentación de API para comercio 
+    {img: "/APIecommerce.png", disc: `¡Bienvenido a nuestra documentación de API para comercio 
     electrónico! Descubre el poder de nuestra API para impulsar tu negocio en línea.`, demo: "https://ecomerce-api-8u64.onrender.com/docs/"},
-    {img: "../../../public/galleta.png", disc: `¿Quieres probar tu suerte? 
+    {img: "/galleta.png", disc: `¿Quieres probar tu suerte? 
       Descubre el mensaje de tu galleta de la fortuna en nuestra página. 
       La dulzura de la vida en cada bocado. Bienvenidos.`, demo: "https://galletasdelafortuna.netlify.app/"},
-    {img: "../../../public/clima.png", disc: `Aunque el clima cambie constantemente, nuestra página del clima 
+    {img: "/clima.png", disc: `Aunque el clima cambie constantemente, nuestra página del clima 
       siempre te brindará una cálida bienvenida. Descubre las condiciones actuales y prepárate para lo que el 
       día tenga preparado. ¡Bienvenidos!`, demo: "https://climateapplication1.netlify.app/"},
-    {img: "../../../public/rick.png", disc: `¡Explora el universo de Rick and Morty en nuestra wiki! Descubre 
+    {img: "/rick.png", disc: `¡Explora el universo de Rick and Morty en nuestra wiki! Descubre 
       información detallada sobre los personajes, episodios, teorías y mucho más.`, demo: "https://rickandmortywilliam.netlify.app/"},
-    {img: "../../../public/product.png", disc: `¡Descubre una forma más fácil y eficiente de gestionar tus productos con nuestra aplicación de CRUD! 
+    {img: "/product.png", disc: `¡Descubre una forma más fácil y eficiente de gestionar tus productos con nuestra aplicación de CRUD! 
       Agrega, actualiza, elimina y visualiza tus productos de manera rápida y sencilla.`, demo: "https://productswithcrud.netlify.app/"},
-    {img: "../../../public/pokemon.png", disc: `¡Sumérgete en el apasionante mundo de los Pokémon con nuestra increíble Pokédex en línea! 
+    {img: "/pokemon.png", disc: `¡Sumérgete en el apasionante mundo de los Pokémon con nuestra increíble Pokédex en línea! 
       Descubre información detallada sobre cada especie, sus habilidades, características y mucho más. `, demo: "https://williamrodriguez-pokedex.netlify.app/"},
-    {img: "../../../public/ecomerce.png", disc: `¡Bienvenido a nuestra tienda en línea! Descubre una experiencia de compra única en nuestro sitio web de comercio 
+    {img: "/ecomerce.png", disc: `¡Bienvenido a nuestra tienda en línea! Descubre una experiencia de compra única en nuestro sitio web de comercio 
       electrónico. Explora nuestra amplia selección de productos de alta calidad y encuentra 
       todo lo que necesitas en un solo lugar.`, demo: "https://williamrodriguez-e-comerce.netlify.app/"},
     {img: "https://img.freepik.com/vector-gratis/proximamente-estilo-grunge-abstracto-salpicaduras-negras_1017-26690.jpg", disc: "Estoy preparando algo asombroso y emocionante para ti." },

@@ -6,7 +6,7 @@ function MyCanvas() {
     const canvasRef = useRef(null);
 
     const images = [];
-    const imagePaths = ["../../../public/js.png", "../../../public/react.png", "../../../public/css.png", "../../../public/html.png"]; // Reemplaza esto con las rutas a tus imágenes
+    const imagePaths = ["/js.png", "/react.png", "/css.png", "/html.png"];
 
     imagePaths.forEach((path) => {
         const img = new Image();
