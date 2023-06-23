@@ -1,6 +1,6 @@
 import Header from "./components/Home/Header";
 import ProfComponent from "./components/Home/ProfComponent";
-import Clients from "./components/AboutMe";
+import AboutMe from "./components/AboutMe";  
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import Services from "./components/Services";
@@ -19,7 +19,7 @@ function App() {
       <div className="lightColor">
         <Projects />
       </div>
-      <Clients />
+      <AboutMe />
       <div className="lightColor">
         <Footer />
       </div>

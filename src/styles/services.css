@@ -6,7 +6,7 @@
   text-align: center;
   transition: 0.5s;
   box-shadow: 0 4px 8px 0 rgba(194, 193, 193, 0.2);
-}
+} 
 
 .card_container:hover {
   background: linear-gradient(159deg, rgb(76, 76, 161) 0%, rgb(67, 67, 77) 100%);

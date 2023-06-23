@@ -37,7 +37,7 @@ const Services = () => {
             y ofrecer una experiencia tan fluida que no podrán resistirse a quedarse.`}
           />
         </Slide>
-        <Slide direction="right">
+        <Slide direction="down">
           <Card
             Icon={VscCode}
             title={"Desarrollo Personalizado"}

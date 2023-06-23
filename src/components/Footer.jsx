@@ -102,7 +102,7 @@ const Footer = () => {
         </Fade>
       </div>
       <div className="form">
-        <Slide direction="right">
+        <Slide direction="letf">
             <form ref={form} onSubmit={sendEmail}>
               <div className="name">
                 <span>
