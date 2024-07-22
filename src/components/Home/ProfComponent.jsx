@@ -25,7 +25,7 @@ const ProfComponent = () => {
             mis habilidades.
           </p>
           <button>
-            <a href="https://drive.google.com/file/d/1L8vfvKfVqAnZrlEpRIoVwSlACvoVuujj/view?usp=sharing" target="_blank" style={{ color: 'white' }}>
+            <a href="https://drive.google.com/file/d/17VJFKPKFU0K1TfGPtF2nny6SRjro85wS/view?usp=sharing" target="_blank" style={{ color: 'white' }}>
               Descargar cv <FaDownload />
             </a>
           </button>
